@@ -1,0 +1,9 @@
+#nav1 {
+    background-color: #1c1c1c; /*whichever you want*/
+    opacity: 0.7;
+    filter:(opacity=50);
+}
+
+.logo {
+  max-width: 100px;
+}
