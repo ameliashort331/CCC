@@ -2,8 +2,57 @@
     background-color: #1c1c1c; /*whichever you want*/
     opacity: 0.7;
     filter:(opacity=50);
+    color: white;
 }
 
 .logo {
   max-width: 100px;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: #fff !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #fff !important;
+}
+
+ul.nav li.active a {
+    color: #fff !important;
+}
+
+nav .navbar-nav li a{
+  color: #fff !important;
+}
+
+
+.left {
+  max-width: 55%;
+  float: left;
+  margin: 1%;
+}
+
+.heading {
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+.video {
+  max-width: 40%;
+  float: left;
+  margin: 1%;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+p {
+  font-size: 23px;
+}
+
+.about-container {
+  padding: 2%;
+  /* background-color: #afafaf; */
+  /* opacity: 0.3; */
 }
