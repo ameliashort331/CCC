@@ -1,8 +1,9 @@
-#nav1 {
-    background-color: #1c1c1c; /*whichever you want*/
-    opacity: 0.7;
-    filter:(opacity=50);
-    color: white;
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
