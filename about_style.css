@@ -28,7 +28,7 @@ nav .navbar-nav li a{
 
 
 .left {
-  max-width: 55%;
+  max-width: 45%;
   float: left;
   margin: 1%;
 }
@@ -38,12 +38,16 @@ nav .navbar-nav li a{
   padding-top: 3%;
 }
 
-.video {
-  max-width: 40%;
-  float: left;
-  margin: 1%;
+.video-container > video {
+    display: inline-block;
+    margin:0;
+    float: right;
+    padding-right:2%;
 }
 
+.video-container {
+    font-size: 0;
+}
 .thumbnail {
   width: 100%;
 }
