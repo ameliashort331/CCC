@@ -65,6 +65,10 @@ p.ontop {
   color: white;
 }
 
+.project_container {
+  width: 100%;
+}
+
 .projects-container {
   clear: both;
   padding: 5%;
@@ -88,6 +92,7 @@ p.ontop {
   width:100%;
   max-height:400px;
   overflow-y:scroll;
+  margin-bottom:5%;
 }
 
 .projects-container {
