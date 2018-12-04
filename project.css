@@ -6,7 +6,9 @@ body {
     background: #fafafa;
 }
 
-
+.logo {
+  max-width: 70px;
+}
 
 p {
     font-size: 1.3em;
@@ -50,6 +52,10 @@ a:focus {
     box-shadow: none;
     outline: none !important;
     border: none;
+}
+
+.nav-item {
+  /* margin-top: 50%; */
 }
 
 .line {

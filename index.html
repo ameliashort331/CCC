@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="icon" href="logo.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
@@ -217,7 +217,8 @@ jQuery(document).ready(function($) {
           var column = document.createElement('td');
           var link = document.createElement('a');
           link.setAttribute("href",cp_ids[0]['id' + index]);
-          // console.log(cp_ids[0]);
+          link.setAttribute("id","project");
+
           index += 1;
           var format = document.createElement('div');
           format.setAttribute("style","height:100%;width:100%;padding-left:10%;");
@@ -341,13 +342,6 @@ jQuery(document).ready(function($) {
     container.appendChild(pg_table);
 
 
-
-    // container.appendChild(pg_table);
-    // document.body.appendChild(cp_table);
-    // document.body.appendChild(hyattsville_table);
-    // document.body.appendChild(university_park_table);
-    // document.body.appendChild(rp_table);
-    // document.body.appendChild(pg_table);
     </script>
 
 
